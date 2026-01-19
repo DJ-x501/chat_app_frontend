@@ -9,12 +9,13 @@ const page = () => {
   return (
     <div className="flex w-full justify-between flex-col gap-4 h-screen">
       <Image src={"/auth.jpg"} fill alt="chatback" />
-      <p className="text-white flex gap-2 items-center font-bold text-xl border-b border-accent px-4 py-2 relative z-2 bg-slate-900">
-        <div className="relative w-8 h-8">
+      <div className="absolute h-full w-full bg-black/60 z-1"/>
+      <div className="text-white flex gap-2 items-center font-bold text-xl border-b border-accent px-4 py-2 relative z-2 bg-slate-900">
+        <div className="relative w-5 h-5">
           <Image src={"/icon1.png"} fill alt="logo" />
         </div>
         <span>Dev Force </span>
-      </p>
+      </div>
 
       <div className="flex flex-col px-6 py-2 gap-4 w-full flex-1 min-h-0 overflow-y-auto no-scrollbar relative z-4">
         <div className="flex w-full items-start justify-start">

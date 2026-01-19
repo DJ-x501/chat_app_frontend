@@ -30,9 +30,7 @@ const Navbar = () => {
             ))}
           </div>
 
-          <Button variant="destructive" className={`cursor-pointer`}>
-            Logout
-          </Button>
+          
         </div>
       </div>
     </div>

@@ -3,6 +3,9 @@ import React from "react";
 import { BsFillChatLeftTextFill } from "react-icons/bs";
 import { TiGroup } from "react-icons/ti";
 import { BiSolidMessageAltEdit } from "react-icons/bi";
+import { IoMdAddCircle } from "react-icons/io";
+import { Button } from "../ui/button";
+
 
 const MainTab = () => {
   return (
@@ -12,10 +15,11 @@ const MainTab = () => {
           <BsFillChatLeftTextFill className="text-primary" />
           <span>Chat Rooms </span>
         </p>
-        <BiSolidMessageAltEdit
+        <Button variant="default" size="icon" className={`items-center flex`}> <IoMdAddCircle
           size={24}
           className="cursor-pointer hover:text-primary"
-        />
+        /></Button>
+       
       </div>
 
       <div className="flex flex-col py-6">
